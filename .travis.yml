@@ -13,4 +13,8 @@ install:
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 90
 
 script:
--
+ - cd sources
+ - g++ RecorridoRey.cpp -o rr
+ - ./rr
+ - g++ CercoConvexo.cpp -o cc
+ - ./cc
