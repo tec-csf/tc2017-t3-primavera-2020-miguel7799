@@ -140,7 +140,7 @@ class RecorridoRey{
             } 
             else
                 solucionTablero(inicio); 
-                
+                cout<<"Complejidad: O(n) = n^n exponencial"<<endl;
                 
         
             return 1; 
