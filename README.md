@@ -36,7 +36,7 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ## 2. Solución
 
-El problema número 4 del Quiz 3 planteaba el siguiente problema: Se desea implementar un 
+El PROBLEMA número 4 del Quiz 3 planteaba el siguiente problema: Se desea implementar un 
 algoritmo que permita resolver el problema de encontrar el cerco convexo de un conjunto 
 de puntos en el plano XY.
 
@@ -50,11 +50,13 @@ de puntos e imprime la cantidad de lados que tiene la figura que está plasmada 
 matriz una vez que termino de recorrerla.
 
 0	1	0
+
 0	0	0 	= triangulo
+
 1	0	1
 
 
-El problema número 7 del Quiz 3 planteaba el siguiente problema: Dado un tablero de 
+El PROBLEMA número 7 del Quiz 3 planteaba el siguiente problema: Dado un tablero de 
 ajedrez de tamaño n*n, un rey es colocado en una casilla arbitraria de coordenadas 
 (x,y). Determinar los n2-1 movimientos del rey, de forma que todas las casillas del 
 tablero sean visitadas una sola vez, si tal secuencia existe.
