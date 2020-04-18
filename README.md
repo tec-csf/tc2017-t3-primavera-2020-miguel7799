@@ -79,14 +79,60 @@ movimientos.
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
 
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
+1.	Clonar el repositorio de GitHub
+   
+    a.	Pegar la liga en el navegador
+   
+        i.	https://github.com/tec-csf/tc2017-t3-primavera-2020-miguel7799.git
+   
+    b.	Dar Click en el botón verde “Clone or Download”
+        
+        i.	Seleccionar “Open in Desktop”
+        ii.	Se descagara un archivo .ZIP
+        iii.	“tc2017-t3-primavera-2020-miguel7799-master.zip”
+   
+    c.	Descomprimir el archivo .zip
+        
+        i.	Se creara la carpeta “tc2017-t3-primavera-2020-miguel7799-masterr”
+        
+2.	Abrir el compilador Visual Studio Code en su Servidor
+
+    a.	Abrir la carpeta clonada “tc2017-t3-primavera-2020-miguel7799-master"
+    
+    b.  Abrir la carpeta "Sources"
+        
+    c.	Abrir el archivo “CercoConvezo.cpp”
+    
+    d.  Abrir el archivo "RecorridoRey.cpp"
+    
+    e.	Abrir la terminal del Visual Studio Code
+        
+        i.	“Ctrl+ñ”
+        
+    f.	Compilar el archivo “CercoConvexo.cpp”
+        
+        i.	“bash”
+        ii.	“g++ CercoConvexo.cpp –o cc”
+    
+    g.	Compilar el archivo “RecorridoRey.cpp”
+        
+        i.	“bash”
+        ii.	“g++ RecorridoRey.cpp –o rr”
+   
+    h.	Ejecutar los dos archvios
+        
+        i.	“./cc"
+        ii. "./rr"
+    
+    i.	Analizar resultados
+
 
 ## 3. Referencias
 
-https://tutorias.co/arrays-visual-c-matriz-tablero-de-ajedrez/
-https://elvex.ugr.es/decsai/c/problemas/reinas/reinas2.c
-https://foro.elhacker.net/programacion_cc/salto_de_caballo_y_backtracking-t245912.0.html
-https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
-https://www.lawebdelprogramador.com/foros/C-Visual-C/101916-como-saber-si-un-poligono-es-concavo-o-convexo.html
-https://www.researchgate.net/publication/307180729_GEOMETRIA_COMPUTACIONAL_EL_PROBLEMA_DEL_CERCO_CONVEXO
+    https://tutorias.co/arrays-visual-c-matriz-tablero-de-ajedrez/
+    https://elvex.ugr.es/decsai/c/problemas/reinas/reinas2.c
+    https://foro.elhacker.net/programacion_cc/salto_de_caballo_y_backtracking-t245912.0.html
+    https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
+    https://www.lawebdelprogramador.com/foros/C-Visual-C/101916-como-saber-si-un-poligono-es-concavo-o-convexo.html
+    https://www.researchgate.net/publication/307180729_GEOMETRIA_COMPUTACIONAL_EL_PROBLEMA_DEL_CERCO_CONVEXO
 
