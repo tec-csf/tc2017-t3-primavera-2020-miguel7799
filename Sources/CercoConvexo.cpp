@@ -3,11 +3,12 @@
     * 
     * Este archivo es parte de https://github.com/tec-csf/tc2017-t3-primavera-2020-miguel7799
     *
-    * Desarrollado para la calse de Analisis y Diseño de Algoritmos.
+    * Desarrollado para la clase de Analisis y Diseño de Algoritmos.
+    *
     * Consulte el archivo README ubicado en el repositorio para
     * obeter más detalles sobre la propiedad y datos especificos del código
     * 
-    * Problema 4: Se desea implementar un algoritmo que permita resoler el problema de
+    * Problema 4: Se desea implementar un algoritmo que permita resolver el problema de
     * encontrar el cerco convexo de un conjunto de puntos en el plano XY
     *
     * Cerco convexo: Secuencia de puntos del conjunto que define una figura convexa
@@ -22,8 +23,8 @@
 using namespace std;
 
 /* 
-    * Implementacion de la case Cerco Convexo para implrirmir 
-    * la mariz dada por el usuario donde vien la figura que desa 
+    * Implementacion de la clase Cerco Convexo para implrirmir 
+    * la mariz dada por el usuario donde viene la figura que se desa 
     * caulcular y para encontrar y mostrar los puntos que forman
     * el cerco convexo de dicha figura.
     *
@@ -39,7 +40,7 @@ class CercoConvexo{
     public:
 
 /*  
-    * printMatriz: imprime la matriz done se encuentra la figura
+    * printMatriz: imprime la matriz donde se encuentra la figura
     * de la cual se desea calcular el "Cerco Convexo".
     * @param int Matriz[][]: matriz con la figura dibujada con "1" y "0".
     * @param int f: número de fila.
@@ -55,7 +56,7 @@ class CercoConvexo{
         }//end printMatriz
 
 /*
-    * busquedaPuntos: Es el método calve ya que Busca los puntos marcados como "1" 
+    * busquedaPuntos: Es el método clave ya que Busca los puntos marcados como "1" 
     * dentro de la matriz.
     * @param int Matriz[][]: matriz con la figura dibujada con "1" y "0".
     * @param int num: es el número que se usa para sustituir a los puntos 
