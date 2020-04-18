@@ -104,7 +104,7 @@ class CercoConvexo{
                               { 1, 0, 1 } };
         printMatriz(Matriz);
         busquedaPuntos(Matriz,1);
-        cout<<"Complejidad: O(n) = n2"<<endl;
+        cout<<"Complejidad: O(n) = n^2"<<endl;
         }//end printCercoConvexo
 };
 int main(){
