@@ -3,11 +3,11 @@
     * 
     * Este archivo es parte de https://github.com/tec-csf/tc2017-t3-primavera-2020-miguel7799
     *
-    * Desarrollado para la calse de Analisis y Diseño de Algoritmos.
+    * Desarrollado para la clase de Analisis y Diseño de Algoritmos.
     * Consulte el archivo README ubicado en el repositorio para obeter más detalles
     * sobre la propiedad y datos especificos del código
     * 
-    * Problema 7: Dado un tablero de ajedrez de tamano n*n, un rey es colocado en una casila
+    * Problema 7: Dado un tablero de ajedrez de tamano n*n, un rey es colocado en una casilla
     * arbitraria de coordenadas (x,y). Determinar los n2-1 movimientos del rey, de forma que
     * pase por todas las casillas del tablero solo una vez.
     * 
@@ -32,7 +32,7 @@ using namespace std;
     *
     * Metodos Principales(movimiento rey).
     * 
-    * Hay métodos auxiliares (limite y solución tablero) que ayudan a
+    * Hay métodos auxiliares (limite y soluciónTablero) que ayudan a
     * platear los limites de movimiento que puede hacer el rey y como
     * se distribuyen dichos movimientos
     * 
@@ -83,7 +83,7 @@ class RecorridoRey{
                 
         }//end movimientoRey
 /*  
-    * limite: calcula los limites del tablero
+    * limite: Es el método donde se implementa el Backtracking y calcula los limites del tablero
     * @param int tablero[][]: matriz del tablero
     * @param int x: casilla columna.
     * @param int y: casilla fila
@@ -94,7 +94,7 @@ class RecorridoRey{
         } //end limite
 
 /*  
-    * solucionTablero: imprime los movimientos en el teblero
+    * solucionTablero: imprime los movimientos en el tablero
     * @param int Matriz[][]: matriz del tablero
     * @return void
 */
