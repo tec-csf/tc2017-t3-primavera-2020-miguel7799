@@ -14,7 +14,8 @@ install:
 
 script:
  - cd Sources
- - g++ RecorridoRey.cpp -o rr
- - ./rr
  - g++ CercoConvexo.cpp -o cc
  - ./cc
+ - g++ RecorridoRey.cpp -o rr
+ - ./rr
+ 
