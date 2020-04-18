@@ -83,4 +83,10 @@ movimientos.
 
 ## 3. Referencias
 
-*[Incluya aquí las referencias a sitios de interés y cualquier otra información que haya utilizado para realizar la actividad y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+https://tutorias.co/arrays-visual-c-matriz-tablero-de-ajedrez/
+https://elvex.ugr.es/decsai/c/problemas/reinas/reinas2.c
+https://foro.elhacker.net/programacion_cc/salto_de_caballo_y_backtracking-t245912.0.html
+https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
+https://www.lawebdelprogramador.com/foros/C-Visual-C/101916-como-saber-si-un-poligono-es-concavo-o-convexo.html
+https://www.researchgate.net/publication/307180729_GEOMETRIA_COMPUTACIONAL_EL_PROBLEMA_DEL_CERCO_CONVEXO
+
